@@ -2,6 +2,9 @@
 source: source
 destination: build
 
+sass:
+  sass_dir: assets/stylesheets
+
 # Site settings
 title: Proteus
 description: Prototyping starter kit for Jekyll
