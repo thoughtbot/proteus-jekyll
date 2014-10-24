@@ -1,3 +1,5 @@
+gems: [bourbon, neat]
+
 # Structure configuration
 source: source
 destination: build
