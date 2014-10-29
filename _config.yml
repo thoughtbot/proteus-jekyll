@@ -4,9 +4,15 @@ gems: [bourbon, neat]
 source: source
 destination: build
 
+assets:
+  cachebust: soft
+
 # Site settings
 title: Proteus
 description: Prototyping starter kit for Jekyll
+
+# Name of project on Github
+baseurl: /proteus-jekyll
 
 # Build settings
 markdown: kramdown

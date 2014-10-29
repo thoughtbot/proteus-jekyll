@@ -13,13 +13,13 @@
       <meta name="description" content="{{ site.description }}">
       <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
-      {% stylesheet "application" %}
+      <link rel="stylesheet" href="{{ site.baseurl }}{% asset_path application.css %}">
   </head>
 
   <body>
     {{ content }}
 
-    {% javascript "application" %}
+    <script type="text/javascript" src="{{ site.baseurl }}{% asset_path application.js %}"></script>
   </body>
 
 </html>
