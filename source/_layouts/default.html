@@ -11,13 +11,15 @@
 
       <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
       <meta name="description" content="{{ site.description }}">
-
-      <link rel="stylesheet" href="{{ "/assets/stylesheets/application.css" | prepend: site.baseurl }}">
       <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+      {% stylesheet "application" %}
   </head>
 
   <body>
     {{ content }}
+
+    {% javascript "application" %}
   </body>
 
 </html>
