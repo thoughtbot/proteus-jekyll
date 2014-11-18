@@ -53,7 +53,7 @@ Deploy to Github Pages
 jekyll build && git subtree push --prefix build origin gh-pages
 ```
 
-Or clone the repo and use these handy shortcuts: `. bin/setup`, `. bin/server` and `. bin/deploy`
+Or install the [Proteus gem](https://github.com/thoughtbot/proteus) and enjoy some shortcuts. 
 
 Stylesheets, fonts, images, and javascript files go in the `/source/_assets/` directory.
 Vendor stylesheets and javascripts should go in each of their `/vendor/` directories.
