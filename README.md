@@ -32,9 +32,14 @@ Getting Started
 ---------------
 Set up your project in your code directory
 ```
-git clone git@github.com:thoughtbot/proteus-jekyll.git [your-project-name]
+git clone git@github.com:thoughtbot/proteus-jekyll.git your-project-folder
+cd your-project-folder
 git remote rm origin
-git remote add origin [your-repo-url]
+git remote add origin your-repo-url
+```
+
+Install dependencies
+```
 bundle install
 ```
 
@@ -47,6 +52,8 @@ Deploy to Github Pages
 ```
 jekyll build && git subtree push --prefix build origin gh-pages
 ```
+
+Or clone the repo and use these handy shortcuts: `. bin/setup`, `. bin/server` and `. bin/deploy`
 
 Stylesheets, fonts, images, and javascript files go in the `/source/_assets/` directory.
 Vendor stylesheets and javascripts should go in each of their `/vendor/` directories.

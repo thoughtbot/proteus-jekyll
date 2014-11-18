@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+
+# Deploy using Middleman-deploy
+jekyll build && git subtree push --prefix build origin gh-pages
