@@ -1,4 +1,4 @@
-# Proteus - Middleman
+# Proteus - Jekyll
 
 ## About Proteus
 [Proteus](http://github.com/thoughtbot/proteus) is a collection of useful
