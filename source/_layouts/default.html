@@ -11,8 +11,9 @@
 
       <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
       <meta name="description" content="{{ site.description }}">
-      <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
 
+      <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
       <link rel="stylesheet" href="{{ site.baseurl }}{% asset_path application.css %}">
   </head>
 
