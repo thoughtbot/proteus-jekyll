@@ -1,4 +1,4 @@
 #!/usr/bin/env sh
 
 # Run the Middleman server
-jekyll serve -w
+bundle exec jekyll serve -w
