@@ -1,4 +1,16 @@
 #!/usr/bin/env sh
 
-# Deploy using Middleman-deploy
-jekyll build && git subtree push --prefix build origin gh-pages
+# Deplo build directory to gh-pages
+sha=`git rev-parse HEAD`
+bundle exec jekyll build
+
+cd build
+
+if [ ! -d ".git" ]; then
+  remote=`git config --get remote.origin.url`
+  git init .
+  git remote add origin $remote
+fi
+
+git add -A && git commit -m "Deploy ${sha}"
+git push origin master:gh-pages
