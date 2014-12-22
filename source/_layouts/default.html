@@ -1,26 +1,19 @@
 ---
-# Layouts must stay in html
+# Layouts must stay in HTML
 ---
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width initial-scale=1" />
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-      <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-      <meta name="description" content="{{ site.description }}">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-
-      <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-      <link rel="stylesheet" href="{{ site.baseurl }}{% asset_path application.css %}">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ site.description }}">
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="stylesheet" href="{{ site.baseurl }}{% asset_path application.css %}">
   </head>
-
   <body>
     {{ content }}
-
     <script type="text/javascript" src="{{ site.baseurl }}{% asset_path application.js %}"></script>
   </body>
-
 </html>
