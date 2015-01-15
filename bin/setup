@@ -12,7 +12,7 @@ fi
 echo -e "Installing Dependencies..."
 bundle install
 
-# Remove Git remote if it's still the proteus-middleman repo
+# Remove Git remote if it's still the proteus-jekyll repo
 if [ `git config --get remote.origin.url` = "git@github.com:thoughtbot/proteus-jekyll.git" ]; then
   git remote rm origin
   echo -e "Resetting Git remote. What is your repo url?"
