@@ -1,18 +1,19 @@
 # Proteus - Jekyll
 
 ## About Proteus
+
 [Proteus](http://github.com/thoughtbot/proteus) is a collection of useful
 starter kits to help you prototype faster. It follows the
 [thoughtbot styleguide](https://github.com/thoughtbot/guides) and includes our
 favorite front end tools.
 
-About Jekyll
----------------
+## About Jekyll
+
 Jekyll is a static site generator built in Ruby. This makes it a great fit
 for projects that may end up as a Ruby on Rails app.
 
-Includes
---------
+## Includes
+
 * [HAML](http://haml.info):
   Simple template markup
 * [Coffeescript](http://coffeescript.org):
@@ -26,10 +27,10 @@ Includes
 * [Bitters](http://bitters.bourbon.io):
   Scaffold styles, variables and structure for Bourbon projects.
 
-We also recommend [Refills](http://refills.bourbon.io/) for prepackaged interface patterns
+We also recommend [Refills](http://refills.bourbon.io/) for prepackaged interface patterns.
 
-Getting Started
----------------
+## Getting Started
+
 Set up your project in your code directory
 ```
 git clone git@github.com:thoughtbot/proteus-jekyll.git your-project-folder
@@ -53,37 +54,27 @@ Deploy to Github Pages
 jekyll build && git subtree push --prefix build origin gh-pages
 ```
 
-Or install the [Proteus gem](https://github.com/thoughtbot/proteus) and enjoy some shortcuts. 
+Or install the [Proteus gem](https://github.com/thoughtbot/proteus) and enjoy some shortcuts.
 
 Stylesheets, fonts, images, and javascript files go in the `/source/_assets/` directory.
 Vendor stylesheets and javascripts should go in each of their `/vendor/` directories.
 
-Issues
-------
+## Issues
 
 If you have problems, please create a
 [GitHub Issue](https://github.com/thoughtbot/proteus-jekyll/issues).
 
-Contributing
-------------
+## Contributing
 
 Have a fix or want to add a feature?
 [Pull Requests](https://github.com/thoughtbot/proteus-jekyll/pulls) are welcome!
 
+## Credits
 
-Credits
--------
+[![thoughtbot](http://images.thoughtbot.com/bourbon/thoughtbot-logo.svg)](http://thoughtbot.com)
 
-![thoughtbot](http://thoughtbot.com/logo.png)
+Proteus Jekyll is maintained and funded by [thoughtbot, inc](http://thoughtbot.com). Thank you to all of [the contributors](https://github.com/thoughtbot/proteus-jekyll/contributors)!
 
-This application is maintained and funded by [thoughtbot, inc](http://thoughtbot.com/community)
+## License
 
-Thank you to all [the contributors](https://github.com/thoughtbot/proteus-jekyll/contributors)!
-
-License
--------
-
-The names and logos for thoughtbot are trademarks of thoughtbot, inc.
-
-Proteus Jekyll is Copyright © 2014 thoughtbot, inc. It is free software, and may be
-redistributed under the terms specified in the LICENSE file.
+Copyright © 2014–2015 [thoughtbot, inc](http://thoughtbot.com). Proteus Jekyll is free software, and may be redistributed under the terms specified in the [license](LICENSE.md).
