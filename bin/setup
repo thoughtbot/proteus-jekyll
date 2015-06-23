@@ -16,7 +16,7 @@ bundle install
 if [ "$(git config --get remote.origin.url)" = "git@github.com:thoughtbot/proteus-jekyll.git" ]; then
   echo "What is your repo url? Enter URL or leave blank"
   read url
-  if [ -z "$url" ]; then
+  if [ ! -z "$url" ]; then
     git remote rm origin
     git remote add origin "$url"
   fi
