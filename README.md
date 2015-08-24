@@ -20,6 +20,8 @@ for projects that may end up as a Ruby on Rails app.
   Write javascript with simpler syntax
 * [Sass](http://sass-lang.com):
   CSS with superpowers
+* [Autoprefixer](https://github.com/postcss/autoprefixer):
+  Add vendor prefixes to CSS
 * [Bourbon](http://bourbon.io):
   Sass mixin library
 * [Neat](http://neat.bourbon.io):
