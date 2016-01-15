@@ -8,7 +8,7 @@ assets:
   cachebust: soft
 
 # Site settings
-title: Proteus
+title: Jekyll Starter
 description: Prototyping starter kit for Jekyll
 
 # Name of project on Github

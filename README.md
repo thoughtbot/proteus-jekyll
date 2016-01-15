@@ -1,9 +1,8 @@
-# Proteus - Jekyll
+# thoughtbot Jekyll Starter
 
-## About Proteus
+## About
 
-[Proteus](http://github.com/thoughtbot/proteus) is a collection of useful
-starter kits to help you prototype faster. It follows the
+This starter kit for Jekyll follows the
 [thoughtbot styleguide](https://github.com/thoughtbot/guides) and includes our
 favorite front end tools.
 
@@ -29,7 +28,7 @@ for projects that may end up as a Ruby on Rails app.
 * [Bitters](http://bitters.bourbon.io):
   Scaffold styles, variables and structure for Bourbon projects.
 
-We also recommend [Refills](http://refills.bourbon.io/) for prepackaged interface patterns.
+We also recommend [Refills](http://refills.bourbon.io/) for prepackaged interface patterns and [Proteus](http://github.com/thoughtbot/proteus) for a collection of useful starter kits to help you prototype faster.
 
 ## Getting Started
 
@@ -75,8 +74,8 @@ Have a fix or want to add a feature?
 
 [![thoughtbot](http://images.thoughtbot.com/bourbon/thoughtbot-logo.svg)](http://thoughtbot.com)
 
-Proteus Jekyll is maintained and funded by [thoughtbot, inc](http://thoughtbot.com). Thank you to all of [the contributors](https://github.com/thoughtbot/proteus-jekyll/contributors)!
+thoughtbot Jekyll Starter is maintained and funded by [thoughtbot, inc](http://thoughtbot.com). Thank you to all of [the contributors](https://github.com/thoughtbot/proteus-jekyll/contributors)!
 
 ## License
 
-Copyright © 2014–2015 [thoughtbot, inc](http://thoughtbot.com). Proteus Jekyll is free software, and may be redistributed under the terms specified in the [license](LICENSE.md).
+Copyright © 2014–2015 [thoughtbot, inc](http://thoughtbot.com). thoughtbot Jekyll Starter is free software, and may be redistributed under the terms specified in the [license](https://github.com/thoughtbot/bourbon/blob/master/LICENSE.md).
