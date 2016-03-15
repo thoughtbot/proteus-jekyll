@@ -9,3 +9,6 @@ gem "jekyll-haml"
 gem "neat"
 gem "sass"
 gem "uglifier"
+
+# To use the `magick` addon in jekyll-assets
+# gem "mini_magick"
