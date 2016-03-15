@@ -1,4 +1,7 @@
-gems: [bourbon, neat]
+gems:
+  - bourbon
+  - neat
+  - octopress-autoprefixer
 
 # Structure configuration
 source: source
