@@ -1,5 +1,7 @@
 # thoughtbot Jekyll Starter
 
+**Note:** This project is no longer being actively maintained.
+
 ## About
 
 This starter kit for Jekyll follows the
