@@ -4,7 +4,7 @@ gem "bourbon"
 gem "coffee-script"
 gem "jekyll"
 gem "jekyll-assets"
-gem "jekyll-haml"
+gem "jekyll-haml", group: :jekyll_plugins
 gem "neat"
 gem "octopress-autoprefixer"
 gem "sass"
